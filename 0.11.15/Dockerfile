@@ -61,4 +61,6 @@ ENV PATH /usr/local/bin:$PATH
 
 USER biodocker
 
+CMD fastqc
+
 WORKDIR /data/
